@@ -1,0 +1,9 @@
+plugins:
+  telegram_login_enabled:
+    default: false
+  telegram_login_bot_name:
+    default: ''
+    regex: ".+[Bb]ot"
+  telegram_login_bot_token:
+    default: ''
+    regex: "^[0-9]{10}:[a-zA-Z0-9_-]{35}$"

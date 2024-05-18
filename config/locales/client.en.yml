@@ -1,0 +1,7 @@
+en:
+  js:
+    login:
+      telegram:
+        name: "Telegram"
+        title: "Login with Telegram"
+        sr_title: "Login with Telegram"

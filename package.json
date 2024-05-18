@@ -1,0 +1,10 @@
+{
+  "name": "discourse-telegram-login",
+  "version": "1.0.0",
+  "repository": "git@github.com:fokx/discourse-telegram-login.git",
+  "author": "fokx",
+  "license": "AGPL",
+  "devDependencies": {
+    "eslint-config-discourse": "^1.1.3"
+  }
+}

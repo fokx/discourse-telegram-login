@@ -1,0 +1,5 @@
+en:
+  site_settings:
+    telegram_login_enabled: "Enable Telegram authentication, requires telegram_access_token."
+    telegram_login_bot_name: "Bot name for Telegram authentication."
+    telegram_login_bot_token: "Bot token for Telegram authentication."

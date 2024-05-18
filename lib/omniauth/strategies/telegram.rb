@@ -13,7 +13,7 @@ module OmniAuth
       option :bot_name, nil
       option :bot_secret, nil
       option :other_button_config, {}
-      option :version, '22'
+      option :api_version, '22'
 
       REQUIRED_FIELDS = %w(id hash).freeze
       HASH_FIELDS = %w(auth_date first_name id last_name photo_url username).freeze
@@ -50,7 +50,7 @@ module OmniAuth
         other_data_attrs = options.other_button_config.map { |k, v| "data-#{k}=\"#{v}\"" }.join(" ")
 
         html << "<script
-              src=\"https://telegram.org/js/telegram-widget.js?#{options.version}\"
+              src=\"https://telegram.org/js/telegram-widget.js?#{options.api_version}\"
               data-telegram-login=\"#{options.bot_name}\"
               data-size=\"large\"
               data-userpic=\"false\"
